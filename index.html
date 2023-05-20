@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+<select name="Profession" id="forProfession" required>
+    <option value="" disabled selected>Profession</option>
+    <option value="Developer">Developer</option>
+    <option value="Admin">Admin</option>
+</select>
+<div class="upper" id="insert">
+    
+</div>
+<div class="forButton">
+    <button onclick="filter()">Filter</button>
+</div>
+<div class="title">
+    <p>Add new user</p>
+</div>
+<div class="container">
+    <div class="inputFeild">
+        <h4>Name</h4>
+        <div>
+            <input class="bottom" type="text" placeholder="Enter name">
+        </div>
+    </div>
+    <div class="inputFeild">
+        <h4>Profession</h4>
+        <div>
+            <input class="bottom" type="text" placeholder="Enter profession">
+        </div>
+    </div>
+    <div class="inputFeild">
+        <h4>Age</h4>
+        <div>
+            <input class="bottom" type="text" placeholder="Enter age">
+        </div>
+    </div>
+</div>
+<button onclick="updateDataBase()">Add User</button>
+    <script src="script.js"></script>
+</body>
+</html>

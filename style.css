@@ -1,0 +1,66 @@
+body{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.innerText{
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+#forProfession{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.upper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* border: 1px solid green; */
+    height: 300px;
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
+
+.inputFeild{
+    align-items:center;
+    
+    width: 100%;
+}
+
+.title p{
+    font-size: 25px;
+    color: black;
+    font-weight: 300;
+}
+
+button{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input.bottom{
+    background-color: black;
+    color: white;
+    width: 90%;
+}
+
+
+.insertedNames{
+padding: 13px;
+margin:5px;
+border: 1px solid white;
+border-radius: 5px;
+}
